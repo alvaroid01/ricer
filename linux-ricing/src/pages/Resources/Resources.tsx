@@ -20,7 +20,7 @@ const Resources = () => {
 
     const generateInstallScript = async () => {
         try {
-            const response = await fetch('/.netlify/functions/server/generate-script', {
+            const response = await fetch('/.netlify/functions/generate-script', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
