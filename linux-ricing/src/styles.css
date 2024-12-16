@@ -1,0 +1,40 @@
+body {
+  background-color: #141414;
+  border: 1px solid #ebebeb;
+  color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  height: 89vh;
+  margin: min(5dvh, 2dvw);
+  overflow-y: hidden;
+  padding: 30px 30px 30px 30px;
+  position: relative;
+  font-family: monospace;
+}
+
+a {
+  font-style: oblique;
+  color: white;
+
+}
+
+ul {
+  list-style: lower-alpha;
+}
+
+#root {
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #464646;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+
+}

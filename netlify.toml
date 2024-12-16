@@ -1,0 +1,3 @@
+[build]
+command = "cd linux-ricing && npm run build && cd .." 
+publish = "linux-ricing/build"

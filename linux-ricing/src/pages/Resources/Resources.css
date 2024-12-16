@@ -1,0 +1,115 @@
+.resources-container {
+    padding: 20px;
+}
+
+.tab-buttons,
+.subtab-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+
+    border: none;
+    /* border-radius: 4px; */
+    color: #696969;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+    text-decoration: underline;
+    color: #cfcfcf;
+}
+
+.tab-button.active {
+    text-decoration: underline;
+    color: white;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.content-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.content-card .description {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.content-card .language {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.content-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content-card a:hover {
+    text-decoration: underline;
+}
+
+.screenshot-container {
+    margin-top: 1rem;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.resource-screenshot {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content-card {
+    /* ... existing styles ... */
+    max-width: 400px;
+}
+
+.generate-script-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.content-card input[type="checkbox"] {
+
+    top: 10px;
+    right: 10px;
+}
+
+.tool-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tool-header input[type="checkbox"] {
+    margin: 0;
+}
+
+.tool-header h3 {
+    margin: 0;
+}
