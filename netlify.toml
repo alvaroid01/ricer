@@ -1,5 +1,6 @@
 [build]
-command = "cd linux-ricing && npm install && npm run build && cd .. && cd linux-ricing-server && npm install && npm run start"
-publish = "linux-ricing/build" 
+command = "cd linux-ricing && npm install && npm run build"
+publish = "linux-ricing/build"
+
 [functions]
-directory = "linux-ricing-server" 
+directory = "linux-ricing-server"
