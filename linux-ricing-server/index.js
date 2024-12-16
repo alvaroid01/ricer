@@ -148,7 +148,9 @@ fi\n\n`;
         fs.unlinkSync(scriptPath);
     });
 });
-
+app.get('/health',(req,res)=>{
+ return res.status(200).send('Alive')
+})
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
